@@ -1,0 +1,497 @@
+{
+  "type": "FeatureCollection",
+  "name": "rutas",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r1",
+        "from": "san_jose",
+        "to": "alajuela",
+        "dist_km": 17,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.0907,
+            9.9281
+          ],
+          [
+            -84.2116,
+            10.0163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r1",
+        "from": "alajuela",
+        "to": "puntarenas",
+        "dist_km": 95,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.2116,
+            10.0163
+          ],
+          [
+            -84.8380,
+            9.9760
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r1",
+        "from": "puntarenas",
+        "to": "liberia",
+        "dist_km": 150,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.8380,
+            9.9760
+          ],
+          [
+            -85.4377,
+            10.6346
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r1",
+        "from": "liberia",
+        "to": "penas_blancas",
+        "dist_km": 78,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -85.4377,
+            10.6346
+          ],
+          [
+            -85.6110,
+            11.2060
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r27",
+        "from": "san_jose",
+        "to": "caldera",
+        "dist_km": 77,
+        "type": "autopista",
+        "toll": "peaje",
+        "congestion_hourpico": 0.60
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.0907,
+            9.9281
+          ],
+          [
+            -84.7050,
+            9.9130
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r32",
+        "from": "san_jose",
+        "to": "limon",
+        "dist_km": 154,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.70
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.0907,
+            9.9281
+          ],
+          [
+            -83.0360,
+            9.9910
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r32",
+        "from": "limon",
+        "to": "guapiles",
+        "dist_km": 64,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.70
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.0360,
+            9.9910
+          ],
+          [
+            -83.7870,
+            10.2120
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r2",
+        "from": "san_jose",
+        "to": "cartago",
+        "dist_km": 24,
+        "type": "primaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.0907,
+            9.9281
+          ],
+          [
+            -83.9190,
+            9.8640
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r2",
+        "from": "cartago",
+        "to": "san_isidro",
+        "dist_km": 110,
+        "type": "primaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.9190,
+            9.8640
+          ],
+          [
+            -83.7030,
+            9.3720
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r126",
+        "from": "heredia",
+        "to": "sarapiqui",
+        "dist_km": 70,
+        "type": "secundaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1200,
+            9.9970
+          ],
+          [
+            -84.0150,
+            10.4580
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r34",
+        "from": "quepos",
+        "to": "uvita",
+        "dist_km": 70,
+        "type": "secundaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1640,
+            9.4310
+          ],
+          [
+            -83.7380,
+            9.1540
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r3",
+        "from": "heredia",
+        "to": "alajuela",
+        "dist_km": 12,
+        "type": "secundaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1200,
+            9.9970
+          ],
+          [
+            -84.2116,
+            10.0163
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r27",
+        "from": "caldera",
+        "to": "jaco",
+        "dist_km": 43,
+        "type": "autopista",
+        "toll": "peaje",
+        "congestion_hourpico": 0.60
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.7050,
+            9.9130
+          ],
+          [
+            -84.6290,
+            9.6150
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r34",
+        "from": "jaco",
+        "to": "parrita",
+        "dist_km": 40,
+        "type": "secundaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.6290,
+            9.6150
+          ],
+          [
+            -84.3240,
+            9.5200
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r34",
+        "from": "parrita",
+        "to": "quepos",
+        "dist_km": 22,
+        "type": "secundaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.3240,
+            9.5200
+          ],
+          [
+            -84.1640,
+            9.4310
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r1",
+        "from": "alajuela",
+        "to": "san_ramon",
+        "dist_km": 47,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.2116,
+            10.0163
+          ],
+          [
+            -84.4710,
+            10.0890
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r1",
+        "from": "san_ramon",
+        "to": "esparza",
+        "dist_km": 28,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.4710,
+            10.0890
+          ],
+          [
+            -84.6640,
+            10.0010
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r2",
+        "from": "cartago",
+        "to": "turrialba",
+        "dist_km": 44,
+        "type": "primaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.9190,
+            9.8640
+          ],
+          [
+            -83.6830,
+            9.9040
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r10",
+        "from": "turrialba",
+        "to": "siquirres",
+        "dist_km": 40,
+        "type": "primaria",
+        "toll": "sin_peaje"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.6830,
+            9.9040
+          ],
+          [
+            -83.5060,
+            10.0970
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r32",
+        "from": "siquirres",
+        "to": "limon",
+        "dist_km": 60,
+        "type": "primaria",
+        "toll": "sin_peaje",
+        "congestion_hourpico": 0.70
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.5060,
+            10.0970
+          ],
+          [
+            -83.0360,
+            9.9910
+          ]
+        ]
+      }
+    }
+  ]
+}

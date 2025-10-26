@@ -1,0 +1,66 @@
+:root {
+  --fg: #111;
+  --muted: #666;
+  --accent: #1f7aec;
+}
+
+body {
+  font-family: system-ui, Segoe UI, Roboto, Arial;
+  color: var(--fg);
+  max-width: 920px;
+  margin: 40px auto;
+  padding: 0 16px;
+  background: #fafafa;
+}
+
+h1 { font-size: 28px; margin: 0 0 6px; }
+h2 { margin-top: 28px; }
+
+.card {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0,0,0,.04);
+  margin: 12px 0;
+}
+
+.row { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+
+input[type=text], select {
+  padding: 8px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  min-width: 200px;
+  background: #ffffff;
+  color: #111111;
+}
+
+input[type=submit], .btn {
+  padding: 8px 12px;
+  border-radius: 8px;
+  border: 0;
+  background: var(--accent);
+  color: #fff;
+  cursor: pointer;
+}
+
+table { border-collapse: collapse; width: 100%; margin-top: 8px; }
+th, td { border-bottom: 1px solid #e5e7eb; padding: 8px 10px; text-align: left; }
+th { background: #f8fafc; }
+
+.muted { color: var(--muted); }
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+code { background:#f3f4f6; padding:2px 6px; border-radius:6px; }
+
+/* Asegura contraste también dentro del desplegable */
+select, option { background:#ffffff; color:#111111; }
+
+/* Input que usa datalist */
+input[list] { background:#ffffff; color:#111111; }
+
+/* Apariencia consistente en Windows */
+select { appearance: menulist; -webkit-appearance: menulist; -moz-appearance: menulist; }

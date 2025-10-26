@@ -10,7 +10,7 @@
         "to": "alajuela",
         "dist_km": 17,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.80
       },
       "geometry": {
@@ -35,7 +35,7 @@
         "to": "puntarenas",
         "dist_km": 95,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.80
       },
       "geometry": {
@@ -60,7 +60,7 @@
         "to": "liberia",
         "dist_km": 150,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.80
       },
       "geometry": {
@@ -85,7 +85,7 @@
         "to": "penas_blancas",
         "dist_km": 78,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.80
       },
       "geometry": {
@@ -110,7 +110,7 @@
         "to": "caldera",
         "dist_km": 77,
         "type": "autopista",
-        "toll": "peaje",
+        "toll": "Si",
         "congestion_hourpico": 0.60
       },
       "geometry": {
@@ -135,7 +135,7 @@
         "to": "limon",
         "dist_km": 154,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.70
       },
       "geometry": {
@@ -160,7 +160,7 @@
         "to": "guapiles",
         "dist_km": 64,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.70
       },
       "geometry": {
@@ -185,7 +185,7 @@
         "to": "cartago",
         "dist_km": 24,
         "type": "primaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -209,7 +209,7 @@
         "to": "san_isidro",
         "dist_km": 110,
         "type": "primaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -233,7 +233,7 @@
         "to": "sarapiqui",
         "dist_km": 70,
         "type": "secundaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -257,7 +257,7 @@
         "to": "uvita",
         "dist_km": 70,
         "type": "secundaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -281,7 +281,7 @@
         "to": "alajuela",
         "dist_km": 12,
         "type": "secundaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -305,7 +305,7 @@
         "to": "jaco",
         "dist_km": 43,
         "type": "autopista",
-        "toll": "peaje",
+        "toll": "Si",
         "congestion_hourpico": 0.60
       },
       "geometry": {
@@ -330,7 +330,7 @@
         "to": "parrita",
         "dist_km": 40,
         "type": "secundaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -354,7 +354,7 @@
         "to": "quepos",
         "dist_km": 22,
         "type": "secundaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -378,7 +378,7 @@
         "to": "san_ramon",
         "dist_km": 47,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.80
       },
       "geometry": {
@@ -403,7 +403,7 @@
         "to": "esparza",
         "dist_km": 28,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.80
       },
       "geometry": {
@@ -428,7 +428,7 @@
         "to": "turrialba",
         "dist_km": 44,
         "type": "primaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -452,7 +452,7 @@
         "to": "siquirres",
         "dist_km": 40,
         "type": "primaria",
-        "toll": "sin_peaje"
+        "toll": "No"
       },
       "geometry": {
         "type": "LineString",
@@ -476,7 +476,7 @@
         "to": "limon",
         "dist_km": 60,
         "type": "primaria",
-        "toll": "sin_peaje",
+        "toll": "No",
         "congestion_hourpico": 0.70
       },
       "geometry": {
@@ -489,6 +489,491 @@
           [
             -83.0360,
             9.9910
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r1",
+        "from": "esparza",
+        "to": "puntarenas",
+        "dist_km": 18,
+        "type": "primaria",
+        "toll": "No",
+        "congestion_hourpico": 0.80
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.6640,
+            10.0010
+          ],
+          [
+            -84.8380,
+            9.9760
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r3",
+        "from": "san_jose",
+        "to": "heredia",
+        "dist_km": 10,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.0907,
+            9.9281
+          ],
+          [
+            -84.1200,
+            9.9970
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r121",
+        "from": "escazu",
+        "to": "santa_ana",
+        "dist_km": 7,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1420,
+            9.9180
+          ],
+          [
+            -84.1830,
+            9.9360
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r124",
+        "from": "santa_ana",
+        "to": "belen",
+        "dist_km": 12,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1830,
+            9.9360
+          ],
+          [
+            -84.1910,
+            9.9760
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r141",
+        "from": "alajuela",
+        "to": "naranjo",
+        "dist_km": 25,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.2116,
+            10.0163
+          ],
+          [
+            -84.3800,
+            10.1000
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r140",
+        "from": "naranjo",
+        "to": "sarchi",
+        "dist_km": 10,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.3800,
+            10.1000
+          ],
+          [
+            -84.3330,
+            10.1000
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r126",
+        "from": "heredia",
+        "to": "vara_blanca",
+        "dist_km": 34,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1200,
+            9.9970
+          ],
+          [
+            -84.1010,
+            10.2500
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r21",
+        "from": "liberia",
+        "to": "nicoya",
+        "dist_km": 77,
+        "type": "primaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -85.4377,
+            10.6346
+          ],
+          [
+            -85.4520,
+            10.1500
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r21",
+        "from": "nicoya",
+        "to": "santa_cruz",
+        "dist_km": 25,
+        "type": "primaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -85.4520,
+            10.1500
+          ],
+          [
+            -85.5850,
+            10.2600
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r155",
+        "from": "santa_cruz",
+        "to": "tamarindo",
+        "dist_km": 24,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -85.5850,
+            10.2600
+          ],
+          [
+            -85.8400,
+            10.2990
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r142",
+        "from": "nicoya",
+        "to": "nandayure",
+        "dist_km": 36,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -85.4520,
+            10.1500
+          ],
+          [
+            -85.2470,
+            10.0400
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r34",
+        "from": "uvita",
+        "to": "dominical",
+        "dist_km": 18,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.7380,
+            9.1540
+          ],
+          [
+            -83.8600,
+            9.2500
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r35",
+        "from": "uvita",
+        "to": "palmar_norte",
+        "dist_km": 45,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.7380,
+            9.1540
+          ],
+          [
+            -83.4630,
+            8.9560
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r35",
+        "from": "palmar_norte",
+        "to": "ciudad_cortes",
+        "dist_km": 18,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.4630,
+            8.9560
+          ],
+          [
+            -83.5240,
+            8.9620
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r32",
+        "from": "guapiles",
+        "to": "guacimo",
+        "dist_km": 20,
+        "type": "primaria",
+        "toll": "No",
+        "congestion_hourpico": 0.70
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.7870,
+            10.2120
+          ],
+          [
+            -83.5890,
+            10.2160
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r36",
+        "from": "limon",
+        "to": "cahuita",
+        "dist_km": 43,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.0360,
+            9.9910
+          ],
+          [
+            -83.0740,
+            9.7380
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r36",
+        "from": "cahuita",
+        "to": "puerto_viejo",
+        "dist_km": 17,
+        "type": "secundaria",
+        "toll": "No"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -83.0740,
+            9.7380
+          ],
+          [
+            -82.7540,
+            9.6570
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r27",
+        "from": "san_jose",
+        "to": "escazu",
+        "dist_km": 6,
+        "type": "autopista",
+        "toll": "Si",
+        "congestion_hourpico": 0.60
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.0907,
+            9.9281
+          ],
+          [
+            -84.1420,
+            9.9180
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r27",
+        "from": "escazu",
+        "to": "santa_ana",
+        "dist_km": 9,
+        "type": "autopista",
+        "toll": "Si",
+        "congestion_hourpico": 0.60
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1420,
+            9.9180
+          ],
+          [
+            -84.1830,
+            9.9360
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "route_id": "r27",
+        "from": "santa_ana",
+        "to": "caldera",
+        "dist_km": 62,
+        "type": "autopista",
+        "toll": "Si",
+        "congestion_hourpico": 0.60
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -84.1830,
+            9.9360
+          ],
+          [
+            -84.7050,
+            9.9130
           ]
         ]
       }

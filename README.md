@@ -62,7 +62,7 @@ Abre tu navegador preferido y visita:
 ```bash 
 👉 http://localhost:8080/
 ```
-![inicio]([http://url/to/img.png](https://github.com/9re9o/RutasVialesCR/blob/main/image.png))
+![inicio](https://github.com/9re9o/RutasVialesCR/blob/473234a5dce3eaac2e294eb917e6d2459ecef743/image.png)
 
 ### 6️⃣ Detener el servidor al finalizar
 ```bash 
@@ -155,3 +155,4 @@ tiempo_directo(A, B, Hora, Ruta, Tiempo). % Calcula el tiempo según tipo de ví
 ruta_sugerida(A, B, Hora, Ruta, Tiempo).  % Selecciona la ruta más rápida entre dos ciudades.
 
 ```
+

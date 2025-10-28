@@ -57,7 +57,7 @@ Si la configuración es correcta, deberías ver el mensaje (opcional cargar regl
 
 Started server at http://localhost:8080/
 
-![inicio]()
+![inicio](https://github.com/9re9o/RutasVialesCR/blob/ed42ca03c42db22734aadb4cc74f95f3be37d2c4/image.png)
 
 ### 5️⃣ Abrir en el navegador
 Abre tu navegador preferido y visita:
@@ -157,6 +157,7 @@ tiempo_directo(A, B, Hora, Ruta, Tiempo). % Calcula el tiempo según tipo de ví
 ruta_sugerida(A, B, Hora, Ruta, Tiempo).  % Selecciona la ruta más rápida entre dos ciudades.
 
 ```
+
 
 
 

@@ -1,12 +1,4 @@
-
-   UI web para la KB de tránsito (usa reglas.pl)
-   - Handlers tolerantes a parámetros ilegales
-   - No imprime a stdout durante HTTP
-   - Selects llenos con todas las ciudades detectadas
-   ======================================================================= */
-
-:- set_prolog_flag(encoding, utf8).
-
+:- encoding(utf8).
 /* --- Streams en UTF-8 antes de iniciar --- */
 setup_io :-
     catch(set_stream(user_input,  encoding(utf8)), _, true),

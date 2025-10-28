@@ -53,10 +53,12 @@ Sigue estos pasos para ejecutar el sistema en tu computadora local:
 ```bash 
 ?- start.
 ```
-Si la configuración es correcta, deberías ver el mensaje:
+Si la configuración es correcta, deberías ver el mensaje (opcional cargar reglas):
 
 Started server at http://localhost:8080/
+
 ![inicio](https://github.com/9re9o/RutasVialesCR/blob/7d9037616ded6a80db826dadafabedc8eaed41d6/startServer.png)
+
 ### 5️⃣ Abrir en el navegador
 Abre tu navegador preferido y visita:
 ```bash 

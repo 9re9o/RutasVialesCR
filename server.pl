@@ -143,7 +143,16 @@ options_cities([C|T]) -->
   { pretty_label_from_atom(C, Label) },
   html(option([value=C], Label)),
   options_cities(T).
+  
+/* Helpers para listar faltantes de forma segura */
+miss_to_str(miss(A,B), S) :-
+    % Convierte miss(origen,destino) en "origen→destino"
+    format(string(S), "~w~w~w", [A, "→", B]).
 
+faltantes_join([], "—").
+faltantes_join(Fs, Joined) :-
+    maplist(miss_to_str, Fs, Parts),
+    atomic_list_concat(Parts, ", ", Joined).
 /* --------------------------- PAGES -------------------------------- */
 home(Request) :-
   % Absorbe cualquier query string mal formada tipo "/?KB cargada..."
@@ -301,19 +310,21 @@ ui_sug_multi(Request) :-
   ),
   reply_html_page(\head_common('Ruta con múltiples paradas'),
     [ h1('Ruta con múltiples paradas'), Body, p(a([href('/')],'Volver a inicio')) ]).
-
 build_multi_legs([_], _, [], 0, []) :- !.
 build_multi_legs([A,B|T], Hora, [row(A,B,Ok,R,Dist,TP,TV)|Rows], Total, Faltantes) :-
   ( ruta_sugerida(A,B,Hora,R,TP) ->
       ( distancia_directa(A,B,Dist) -> true ; Dist = 'N/A' ),
-      ( tiempo_directo(A,B,hora_valle,R,TV) -> true ; TV = 'N/A' ),
+      ( tiempo_directo(A,B,hora_valle,R,TV) -> true ; TV  = 'N/A' ),
       Ok = ok,
-      build_multi_legs([B|T], Hora, Rows, TotalRest, FPrev)
-  ; Ok = fail, R = '-', Dist = '-', TP = '-', TV = '-',
-    build_multi_legs([B|T], Hora, Rows, TotalRest, FPrev)
+      build_multi_legs([B|T], Hora, Rows, TotalRest, FPrev),
+      Faltantes = FPrev
+  ; % no hay ruta directa A->B
+    Ok = fail, R = '-', Dist = '-', TP = '-', TV = '-',
+    build_multi_legs([B|T], Hora, Rows, TotalRest, FPrev),
+    Faltantes = [miss(A,B)|FPrev]
   ),
-  ( Ok == ok -> Faltantes = FPrev ; Faltantes = [A-B|FPrev] ),
   ( number(TP) -> Total is TP + TotalRest ; Total = TotalRest ).
+
 
 tabla_multitramos(Stops, Hora, Rows, Total, Faltantes) -->
   { hora_label(Hora, HL),
@@ -338,16 +349,17 @@ rows_multi([row(A,B,fail,_,_,_,_)|T]) -->
   html(tr([td(A), td(B), td('N/A'), td('N/A'), td('N/A'), td('N/A'),
            td([style='color:#b91c1c'], 'Sin tramo directo')])),
   rows_multi(T).
-
 resumen_multi(Total, []) -->
   { fmt_total(Total, S) },
   html([p(b(['Tiempo total (solo tramos directos): ', S]))]).
+
 resumen_multi(Total, Faltan) -->
-  { fmt_total(Total, S) },
+  { fmt_total(Total, S),
+    faltantes_join(Faltan, J) },
   html([
     p(b(['Tiempo total (solo tramos directos): ', S])),
     p([span([style='color:#b91c1c'], 'Atención: '),
-       'no existe conexión directa para: ', code(Faltan), '.'])
+       'no existe conexión directa para: ', code(J), '.'])
   ]).
 
 /* --------------------- Render de tablas ---------------------------- */
